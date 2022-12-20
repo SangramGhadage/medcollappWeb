@@ -1,0 +1,42 @@
+#header {
+    display: block;
+    position: relative;
+    background: url('/src/assets/header.png') 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headerh1 {
+    color: #fff;
+    Font-style: Bold;
+    Font-size: 4rem;
+    Line-height: 62px;
+    padding-left: 3%;
+    font-weight: 700;
+
+}
+
+.headerpara {
+    color: #000;
+    Font-style: Medium;
+    Font-size: 20px;
+    Line-height: 22px;
+    font-weight: 400;
+    padding-left: 3%;
+}
+
+.formHeading {
+    font-style: Medium;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 4%;
+    letter-spacing: 0.5px;
+}
+.join {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
