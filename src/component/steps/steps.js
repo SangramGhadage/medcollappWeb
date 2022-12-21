@@ -22,7 +22,7 @@ export default function Steps() {
             </Grid>
             <Grid container
                 style={{ display: 'flex', width: '70%', justifyContent: 'center', alignContent: 'center', margin: '21px 14.5%' }}>
-                <Grid item xs={3} direction='row'>
+                <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
                         <div className={classes.outercircle}>
                             <div className={classes.innercircle}>
@@ -34,7 +34,7 @@ export default function Steps() {
                     </div>
                     <hr style={{width: '44%',borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
                 </Grid>
-                <Grid item xs={3} direction='row'>
+                <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
                         <div className={classes.outercircle}>
                             <div className={classes.innercircle}>
@@ -46,7 +46,7 @@ export default function Steps() {
                     </div>
                     <hr style={{width: '44%', borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
                 </Grid>
-                <Grid item xs={3} direction='row'>
+                <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
                         <div className={classes.outercircle}>
                             <div className={classes.innercircle}>
@@ -58,7 +58,7 @@ export default function Steps() {
                     </div>
                     <hr style={{width: '44%', borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
                 </Grid>
-                <Grid item xs={3} direction='row'>
+                <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
                         <div className={classes.outercircle}>
                             <div className={classes.innercircle}>

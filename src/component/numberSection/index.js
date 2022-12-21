@@ -17,7 +17,7 @@ export default function Numbers() {
                     <p>Find awesome hospitals,doctors,Travel <br /> Agencies at one click</p>
                 </div>
                 <Grid container spacing={2} style={{ marginBottom: '2%' }}>
-                    <Grid item xs={6} style={{ textAlign: 'end', }}>
+                    <Grid item xs={12} md={6} style={{ textAlign: 'end', }}>
                         <Box style={{  width: '20%', paddingLeft: '60%' }}>
                             <div className="container">
                                 <div className="relationship">
@@ -35,7 +35,7 @@ export default function Numbers() {
                             </div>
                         </Box>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                     <Box style={{  width: '20%',  }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>
@@ -55,7 +55,7 @@ export default function Numbers() {
                     </Grid>
                 </Grid>
                 <Grid container spacing={2} style={{ marginBottom: '2%' }}>
-                    <Grid item xs={6} style={{ textAlign: 'end', }}>
+                    <Grid item xs={12} md={6} style={{ textAlign: 'end', }}>
                         <Box style={{  width: '20%', paddingLeft: '60%' }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>
@@ -73,7 +73,7 @@ export default function Numbers() {
                             </div>
                         </Box>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                     <Box style={{  width: '20%',  }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>

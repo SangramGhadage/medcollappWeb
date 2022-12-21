@@ -21,12 +21,11 @@ nav ul {
 	padding: 0;
     margin-left: 16%;
 }
-
 nav .hamburger {
 	display: none;
 }
 nav li {
-    width: 118px;
+    width: 145px;
 }
 
 .flex #menu li a {
@@ -34,7 +33,9 @@ nav li {
 	text-transform: uppercase;
 	text-decoration: none;
 }
-
+.flex #menu li a {
+	display: flex;
+}
 .companyLogo {
     /* width: 10%; */
     height: 60px;
@@ -47,17 +48,6 @@ nav li {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-.link {
-    margin-left: 8%;
-    display: flex;
-}
-.link a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #000000;
-    font-weight: 500;
-
 }
 @media screen and (max-width: 768px) {
     nav .hamburger {

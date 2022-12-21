@@ -27,28 +27,11 @@ export default function NavBar() {
                         <CloseIcon className='close' />
                     </button>
                     <ul id="menu" ref={menuRef}>
-                        <li><a href="#"><HomeOutlinedIcon /></a></li>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Knowldge</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a style={{marginRight: '-15%'}} href="#"><HomeOutlinedIcon /></a></li>
+                        <li><a href="#">Company <span><ExpandMoreOutlinedIcon /></span></a></li>
+                        <li><a href="#">Knowledge <span><ExpandMoreOutlinedIcon /></span></a></li>
+                        <li><a href="#">Contact Us <span><ExpandMoreOutlinedIcon /></span></a></li>
                     </ul>
-                    {/* <div className='navLink'>
-                       <div className="link">
-                            <HomeOutlinedIcon />
-                        </div>
-                        <div className="link">
-                            <a href="">Company</a>
-                            <ExpandMoreOutlinedIcon />
-                        </div>
-                        <div className="link">
-                            <a href="">Knowledge </a>
-                            <ExpandMoreOutlinedIcon />
-                        </div>
-                        <div className="link">
-                            <a href="">Contact Us</a>
-                            <ExpandMoreOutlinedIcon />
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </nav>
