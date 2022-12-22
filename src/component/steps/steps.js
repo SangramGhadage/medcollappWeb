@@ -32,7 +32,7 @@ export default function Steps() {
                         <h4>Find Best Deals</h4>
                         <p>Automatically produce industry standard reports & custom templates, in order to seamlessly share information with service providers.</p>
                     </div>
-                    <hr style={{width: '44%',borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
+                    <hr className={classes.line}/>
                 </Grid>
                 <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
@@ -44,7 +44,7 @@ export default function Steps() {
                         <h4>Upload Reports</h4>
                         <p>Automatically produce industry standard reports & custom templates, in order to seamlessly share information with service providers.</p>
                     </div>
-                    <hr style={{width: '44%', borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
+                    <hr className={classes.line}/>
                 </Grid>
                 <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
@@ -56,7 +56,7 @@ export default function Steps() {
                         <h4>Get Appointment</h4>
                         <p>Automatically produce industry standard reports & custom templates, in order to seamlessly share information with service providers.</p>
                     </div>
-                    <hr style={{width: '44%', borderTop: '1px dashed black',position: 'relative',top: '-67%',left: '40%'}} />
+                    <hr className={classes.line}/>
                 </Grid>
                 <Grid item xs={12} md={3} direction='row'>
                     <div className={classes.deal} style={{}}>
@@ -131,6 +131,20 @@ const useStyles = makeStyles(() => ({
             top: '19%',
 
         },
+    },
+    line: {
+        width: '44%',
+        borderTop: '1px dashed black',
+        position: 'relative',
+        top: '-67%',
+        left: '40%',
+        ['@media (max-width:895px)']: {
+            borderLeft: '1px dashed black',
+            height: '10%',
+            top: '-5%',
+            left: '-10%',
+            width: '0'
+        }
     }
 
 }));
