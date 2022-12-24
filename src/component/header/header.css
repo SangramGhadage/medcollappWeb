@@ -11,31 +11,53 @@
 }
 
 .headerh1 {
-    color: #fff;
-    Font-style: Bold;
-    Font-size: 4rem;
-    Line-height: 62px;
-    padding-left: 3%;
+    color: #ffffff;
+    font-style: normal;
     font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+    position: relative;
+    left: 72px;
+    top: 28px;
 
 }
 
 .headerpara {
-    color: #000;
-    Font-style: Medium;
-    Font-size: 20px;
-    Line-height: 22px;
-    font-weight: 400;
-    padding-left: 3%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+    color: #262630;
+    position: relative;
+    left: 85px;
+
 }
 
 .formHeading {
-    font-style: Medium;
-    font-size: 1.3rem;
+    font-style: normal;
     font-weight: 500;
-    padding-left: 4%;
-    letter-spacing: 0.5px;
+    font-size: 26px;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+    color: #262630;
+    position: relative;
+    left: 28px;
 }
+
+.formPara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    position: relative;
+    left: 35px;
+    top: -20px;
+}
+
 .join {
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;

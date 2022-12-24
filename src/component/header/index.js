@@ -6,6 +6,7 @@ import vector from '../../assets/freepik--character-2--inject-44.png'
 import TuneIcon from '@mui/icons-material/Tune';
 import SearchIcon from '@mui/icons-material/Search';
 import InputAdornment from '@material-ui/core/InputAdornment';
+import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 import searchIcon from '../../assets/searchicon.png'
 
 export default function Header() {
@@ -27,27 +28,43 @@ export default function Header() {
                                         <h2 className='formHeading'>Start your search here...</h2>
                                     </Grid>
                                     <Grid item xs={6}>
-                                        <p style={{ paddingLeft: '7%' }}>Search for disease,Treatment,Illness.*</p>
-                                        <div style={{ paddingLeft: '7%' }}>
-                                            <TextField className={classes.textField} id="outlined-basic" label="search disease" variant="outlined" size="small" InputProps={{
-                                                endAdornment: (
+                                        <p className='formPara'>Search for disease,Treatment,Illness.*</p>
+                                        <div style={{ position: 'relative', left: '36px', top: '-25px' }}>
+                                            <TextField className={classes.textField} placeholder= 'search Disease/Treatment/Illness' id="outlined-basic"  variant="outlined" size="small" 
+                                            sx={{height: 48}} inputProps={{sx: {height: 32}}}
+                                            InputProps={{
+                                                startAdornment: (
                                                     <InputAdornment>
-                                                        <SearchIcon />
+                                                        <SearchIcon style= {{color: '#a2a2a2'}}/>
                                                         {/* <img src={searchIcon} alt="" /> */}
                                                     </InputAdornment>
                                                 )
                                             }} />
                                         </div>
                                     </Grid>
-                                    <Grid item xs={6}>
-                                        <p>What will be required location ?</p>
-                                        <div >
-                                            <TextField className={classes.textField} id="outlined-basic" label="search disease" variant="outlined" size="small" />
-                                            <img className='searchIcon' style={{backgroundColor: '#0880e9', borderRadius: '10px', padding: '10px', marginLeft: '4%'}} class src={searchIcon} alt="" />
+                                    <Grid item xs={6} textAlign='start'>
+                                        <p className='formPara' style={{ left: '0' }}>What will be required location ?</p>
+                                        <div style={{ position: 'relative', top: '-25px' }}>
+                                            <TextField sx={{height: 48}} placeholder= 'search Disease/Treatment/Illness' inputProps={{sx: {height: 32}}}   className={classes.textField} id="outlined-basic"  variant="outlined" size="small"  InputProps={{
+                                                endAdornment: (
+                                                    <InputAdornment>
+                                                        <ExpandMoreOutlinedIcon style= {{color: '#a2a2a2'}}/>
+                                                        {/* <img src={searchIcon} alt="" /> */}
+                                                    </InputAdornment>
+                                                ),
+                                                startAdornment: (
+                                                    <InputAdornment>
+                                                        <SearchIcon style= {{color: '#a2a2a2'}}/>
+                                                        {/* <img src={searchIcon} alt="" /> */}
+                                                    </InputAdornment>
+                                                )
+                                            }}  />
+
+                                            <img className='searchIcon' style={{ backgroundColor: '#0880e9', borderRadius: '10px', padding: '14px', marginLeft: '7%' }} class src={searchIcon} alt="" />
                                         </div>
                                     </Grid>
                                 </Grid>
-                                <hr style={{ border: '0.5px solid #ffffff' }} />
+                                <hr style={{ borderTop: '0.5px solid #ffffff14', marginLeft: '1%' }} />
                                 <Grid item xs={12} style={{ textAlign: 'center' }}>
                                     <div >
                                         {/* <p style={{}}>Advanced Search</p> */}
@@ -61,7 +78,7 @@ export default function Header() {
                                         <img src={vector} alt="" style={{ width: '100%', height: '134%', objectFit: 'cover', position: 'relative', top: '-53px', right: '-19px' }} />
                                     </Grid>
                                     <Grid item xs={7} >
-                                        <p style={{ paddingTop: '3%' }}>Want To Grow Your Buisness ?</p>
+                                        <p style={{ paddingTop: '3%', fontSize: '1rem', }}>Want To Grow Your Buisness ?</p>
                                         <p style={{ color: '#00C5CC', fontSize: "1.2rem", }}>Join Us Today !</p>
                                         <Button variant='contained'>Add Yours</Button>
                                     </Grid>
@@ -82,17 +99,21 @@ const useStyles = makeStyles(() => ({
         fontWeight: 400,
         textAlign: 'center',
         backgroundColor: '#ffffff !important',
-        width: '60%',
-        // paddingLeft: '4%'
-    },
+        width: '80%',
+        borderRadius: '8px'
+},
     btn: {
-        backgroundColor: 'rgba(19, 127, 255, 0.1) !important',
-        color: '#137FFF !important',
-        fontFamily: "Poppins",
-        fontStyle: 'normal',
-        fontWeight: 400,
-        marginBottom: '2%',
-        marginTop: 10
-    }
-
+    backgroundColor: 'rgba(19, 127, 255, 0.1) !important',
+    color: '#137FFF !important',
+    fontSize: '1rem !important',
+    letterSpacing: '0.1em !important',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    marginBottom: '2%',
+    marginTop: 10,
+    borderRadius: '12px !important',
+    width: '229px',
+    height: '48px',
+    textTransform: 'none !important'
+}
 }));
