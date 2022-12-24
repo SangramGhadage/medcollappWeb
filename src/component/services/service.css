@@ -33,6 +33,7 @@
     border-bottom-left-radius: 4px;
     border-bottom: 0.5px solid rgba(255, 168, 0, 0.68);
     display: flex;
+    align-items: center;
 }
 .cardHeading img {
     width: 32px;

@@ -37,6 +37,8 @@ footer::before {
 footer h4 {
 	color: #fff;
 	text-transform: uppercase;
+	border-bottom: 4px solid #00c4cc;
+    width: 49%;
 }
 
 footer ul {
