@@ -75,18 +75,16 @@ export default function Steps() {
 }
 const useStyles = makeStyles(() => ({
     stepheading1: {
-        fontSize: '2.2rem',
-        fontFamily: 'poppins, sans-serif',
+        fontSize: '2.26rem',
         color: '#00C5CC',
         fontWeight: '500',
         margin: '0',
-        marginLeft: '10%'
+        marginLeft: '6%'
     },
     stepheading2: {
         fontSize: '2rem',
         color: '#000000',
         fontWeight: '500',
-        fontFamily: 'poppins, sans-serif'
     },
     deal: {
         width: '80%',
@@ -98,15 +96,13 @@ const useStyles = makeStyles(() => ({
         textAlign: 'center',
         '& p': {
             margin: '0',
-            fontFamily: 'poppins, sans-serif',
-            fontSize: '0.8rem',
-            fontWeight: '400'
+            fontSize: '0.75rem',
+            fontWeight: '400',
+            letterSpacing: '0.04em'
         },
         '& h4': {
-            fontFamily: 'poppins, sans-serif',
             fontSize: '1rem',
             fontWeight: '600',
-            marginBottom: '0'
         }
     },
     outercircle: {

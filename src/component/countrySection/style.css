@@ -14,13 +14,12 @@
 .heading h1,
 h4 {
     font-weight: 600;
-    letter-spacing: 0.1rem;
-    font-style: normal;
 }
 
 .heading h1 {
     font-size: 2.8rem;
     margin: 0;
+    padding-top: 2%;
 }
 
 .heading h4 {
@@ -36,7 +35,14 @@ h4 {
     align-items: center;
     justify-content: center;
 }
-
+.countryBox {
+    width: 283px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .image {
     height: 100%;
     width: 100%;
@@ -47,28 +53,25 @@ h4 {
 .countryName {
     background-color: #FFA800;
     position: relative;
-    bottom: 220px;
-    padding: 7px;
-    width: fit-content;
+    top: -97%;
+    left: -27%;
+    padding: 10px;
+    border-top-left-radius: 32px;
     border-bottom-right-radius: 10px;
-    font-family: 'Poppins';
-    font-style: normal;
+    font-size: 1.1rem;
+    color: #ffffff;
     font-weight: 600;
-    font-size: 1rem;
-    line-height: 24px;
 }
 
 .specialities {
     position: relative;
-    bottom: 106px;
-    padding-left: 13px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
+    background-Color: rgba(7, 7, 7, 0.24);
+    width: 228px;
+    color: #ffffff;
+    bottom: 127px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    padding: 2%;
     font-size: 1.1rem;
-    line-height: 30px;
-    background: rgba(7, 7, 7, 0.24);
-    color: #FFFFFF;
-    border-radius: 5px 5px 22px 22px;
-    text-align: start;
+    padding-left: 10%;
 }

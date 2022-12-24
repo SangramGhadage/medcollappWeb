@@ -1,10 +1,11 @@
 .serviceHeader {
-    font-family: 'Poppins';
     font-style: 'SemiBold';
-    font-size: 2.2rem;
-    /* Line height: 40px */
+    font-size: 2.25rem;
     color: #00C5CC;
     font-weight: 600;
+    position: relative;
+    left: -71px;
+    top: -13px;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -17,6 +18,10 @@
 }
 .slick-dots li.slick-active button:before {
     color: #FFD075 !important;
+}
+.slick-slider {
+    left: -16px;
+    width: 102%;
 }
 .cardHeading {
     width: 100%;
@@ -38,7 +43,6 @@
     margin: 0 23px;
 }
 .cardHeading p {
-    font-family: poppins;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -52,10 +56,12 @@
     color: #000000;
 }
 .cardService ul li {
-    font-size: 0.9rem;
-    font-weight: 400;
-    font-family: poppins;
+    font-size: 0.7rem;
+    font-weight: 300;
     color: #000000;
+    padding: 4px 0;
+    letter-spacing: 0;
+    text-transform: uppercase;
 }
 .servicebtn {
     text-align: center;
@@ -65,4 +71,5 @@
     color: #137FFF !important;
     background-color: rgba(48, 79, 254, 0.08) !important;
     border-radius: 22px;
+    box-shadow: none !important;
 }

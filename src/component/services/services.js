@@ -53,7 +53,7 @@ export default function Services() {
                     </Grid>
                     <Slider {...settings}>
                         <div>
-                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px' }}>
+                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(0,0,0,0.52)' }}>
                                 <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -68,12 +68,12 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                    <Button variant='contained'>View details</Button>
+                                    <Button>View details</Button>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px' }}>
+                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px',filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(0,0,0,0.52)' }}>
                                 <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -88,12 +88,12 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                    <Button variant='contained'>View details</Button>
+                                    <Button>View details</Button>
                                 </div>
                             </div>
                         </div>
                         <div>
-                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px'}}>
+                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px',  filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(0,0,0,0.52)'}}>
                                 <div className= 'cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -108,12 +108,12 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                <Button variant='contained'>View details</Button>
+                                <Button>View details</Button>
                                     </div>
                             </div>
                         </div>
                         <div>
-                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px'}}>
+                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(0,0,0,0.52)'}}>
                                 <div className= 'cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -128,7 +128,7 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                <Button variant='contained'>View details</Button>
+                                <Button>View details</Button>
                                     </div>
                             </div>
                         </div>

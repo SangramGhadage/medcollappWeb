@@ -1,4 +1,4 @@
-import { Grid, Card, CardMedia, Box } from '@mui/material';
+import { Grid, Card, CardMedia, Box, Stack } from '@mui/material';
 import React from 'react'
 import './style.css'
 import country1 from '../../assets/country1.png'
@@ -15,72 +15,51 @@ export default function Country() {
                     <h1>Featured Countries</h1>
                     <h4>Top most health facilated Countries</h4>
                 </div>
-                {/* <div className="cards"> */}
-                    <Grid container spacing={2} justifyContent= 'center' alignItems='center' direction='row'style={{paddingLeft: '30px'}}>
-                        <Grid item xs={12} sm={3} style={{ textAlign: 'center' }}>
-                        <Card className='card'>
-                                    <img src={country1} alt="" className='image' />
-                                    <p className= 'countryName'>Rome</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3}>
-                        <Card className='card'>
-                                    <img src={newyork} alt="" className='image' />
-                                    <p className= 'countryName'>NewYork</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3}>
-                        <Card className='card'>
-                                    <img src={Manchester} alt="" className='image' />
-                                    <p className= 'countryName'>Manchester</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3} style={{ textAlign: 'center' }}>
-                            <div>
-                                <Card className='card'>
-                                    <img src={Delhi} alt="" className='image' />
-                                    <p className= 'countryName'>New Delhi</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                            </div>
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={2} justifyContent= 'center' alignItems='center' direction='row'style={{paddingLeft: '30px', marginTop: '2%', paddingBottom: '2%'}}>
-                        <Grid item xs={12} sm={3} style={{ textAlign: 'center' }}>
-                        <Card className='card'>
-                                    <img src={SaudiArab} alt="" className='image' />
-                                    <p className= 'countryName'>SaudiArab</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3}>
-                        <Card className='card'>
-                                    <img src={country1} alt="" className='image' />
-                                    <p className= 'countryName'>Rome</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3}>
-                        <Card className='card'>
-                                    <img src={Manchester} alt="" className='image' />
-                                    <p className= 'countryName'>Manchester</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                        </Grid>
-                        <Grid item xs={12} sm={3} style={{ textAlign: 'center' }}>
-                            <div>
-                                <Card className='card'>
-                                    <img src={Delhi} alt="" className='image' />
-                                    <p className= 'countryName'>New Delhi</p>
-                                    <p className= 'specialities'>50 Specialities</p>
-                                </Card>
-                            </div>
-                        </Grid>
-                    </Grid>
-                {/* </div> */}
+                <Stack direction='row' justifyContent='space-around' style={{ marginTop: '6%', marginRight: '6%' }}>
+                    <Box className='countryBox' style={{}}>
+                        <img src={Delhi} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName'>New Delhi</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={Manchester} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-70px' }}>Manchester</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={newyork} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-80px' }}>NewYork</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={country1} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-97px' }}>Rome</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                </Stack>
+
+                <Stack direction='row' justifyContent='space-around' style={{ marginTop: '6%', marginLeft: '6%' }}>
+                    <Box className='countryBox' style={{}}>
+                        <img src={Delhi} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName'>New Delhi</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={Manchester} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-70px' }}>Manchester</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={newyork} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-80px' }}>NewYork</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                    <Box className='countryBox' style={{}}>
+                        <img src={country1} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
+                        <p className='countryName' style={{ left: '-97px' }}>Rome</p>
+                        <p className='specialities'>50 Specialities</p>
+                    </Box>
+                </Stack>
             </div>
         </>
     )

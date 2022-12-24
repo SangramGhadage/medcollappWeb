@@ -50,11 +50,11 @@ nav li {
 	
 }
 #menu li a {
-	color: #000000;
+	color: #4e4b4bfa;
 	text-decoration: none;
 	align-items: center;
 	display: flex;
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 1rem;
 	letter-spacing: 0.1em;
     line-height: 110%;
