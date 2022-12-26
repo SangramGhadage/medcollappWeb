@@ -50,6 +50,7 @@ export default function Blog() {
                             <img src={blogImage} alt="" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
                             <h4>Why to choose Travelite hotel for your next trip ?</h4>
                             <p>Lorem ipsum dolor sit amet consectetur. Ultricies commodo fames donec odio odio eleifend odio velit quam. Proin aenean egestas duis lectus in blandit aliquet egestas hac. Volutpat non mauris morbi.</p>
+                            <a href="">Know More...</a>
                         </div>
                     </div>
                     <div>
@@ -57,6 +58,7 @@ export default function Blog() {
                             <img src={blogImage} alt="" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
                             <h4>Why to choose Travelite hotel for your next trip ?</h4>
                             <p>Lorem ipsum dolor sit amet consectetur. Ultricies commodo fames donec odio odio eleifend odio velit quam. Proin aenean egestas duis lectus in blandit aliquet egestas hac. Volutpat non mauris morbi.</p>
+                            <a href="">Know More...</a>
                         </div>
                     </div>
                     <div>
@@ -64,6 +66,7 @@ export default function Blog() {
                             <img src={blogImage} alt="" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
                             <h4>Why to choose Travelite hotel for your next trip ?</h4>
                             <p>Lorem ipsum dolor sit amet consectetur. Ultricies commodo fames donec odio odio eleifend odio velit quam. Proin aenean egestas duis lectus in blandit aliquet egestas hac. Volutpat non mauris morbi.</p>
+                            <a href="">Know More...</a>
                         </div>
                     </div>
                     <div>
@@ -71,6 +74,7 @@ export default function Blog() {
                             <img src={blogImage} alt="" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
                             <h4>Why to choose Travelite hotel for your next trip ?</h4>
                             <p>Lorem ipsum dolor sit amet consectetur. Ultricies commodo fames donec odio odio eleifend odio velit quam. Proin aenean egestas duis lectus in blandit aliquet egestas hac. Volutpat non mauris morbi.</p>
+                            <a href="">Know More...</a>
                         </div>
                     </div>
                     <div>
@@ -93,16 +97,25 @@ const useStyles = makeStyles(() => ({
         backgroundColor: '#EEEEEE',
         '& h4': {
             color: '#000000',
-            fontFamily: 'poppins, sans-serif',
-            fontSize: '1rem',
-            fontWeight: '400',
+            fontSize: '16px',
+            fontWeight: '600',
+            letterSpacing: '0'
         },
         '& p': {
             color: '#000000',
-            fontFamily: 'poppins, sans-serif',
-            fontSize: '0.9rem',
+            fontSize: '14px',
             fontWeight: '400',
+            letterSpacing: '0'
         },
+        '& a': {
+            textDecoration: 'none',
+            color: '#137FFF',
+            textAlign: 'end',
+            fontWeight: '500',
+            fontSize: '18px',
+            lineHeight: '27px',
+            paddingLeft: '68%'
+        }
     }
 
 }));
