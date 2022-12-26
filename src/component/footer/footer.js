@@ -11,9 +11,9 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div class="footercontainer">
+                <div className="footercontainer">
 
-                    <div class="flex align-start">
+                    <div className="flex align-start">
                         <div>
                             <div style={{ width: '119px', height: '59px' }}>
                                 <img style={{ width: '100%', height: '100%' }} src={logo} alt="logo" />
@@ -21,8 +21,8 @@ export default function Footer() {
                             <p style={{ color: '#ffffff' }}>
                                 Molestias delectus sunt atque <br /> perferendis, repellat voluptates, <br />voluptatibus non eum aspernatur inventore <br /> quo nam necessitatibus nobis iure.
                             </p>
-                            <ul class="flex">
-                                <li>
+                            <ul className="flex">
+                                <li >
                                     <a href="#">
                                         <FacebookIcon />
                                     </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                     <Grid item xs = {6}>
                         {/* <p>2022 medcollapp. </p> */}
                         <div>
-                            <ul class="flex" style={{listStyle: 'none'}}>
+                            <ul className="flex" style={{listStyle: 'none'}}>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Careers</a></li>
                                 <li><a href="#">Terms Of Us</a></li>

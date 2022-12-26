@@ -1,54 +1,16 @@
-.navbar {
-    width: 100%;
-    /* background-color: black; */
-    height: 80px;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-}
-nav {
-	background-color: #fff;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	z-index: 100;
-/* }
-nav ul {
-	display: flex;
-	align-items: center;
-	list-style-type: none;
-	padding: 0;
-    margin-left: 16%;
-}
-nav .hamburger {
+
+
+.hamburger {
 	display: none;
 }
-nav li {
-    width: 145px;
-}
 
-.flex #menu li a {
-	color: #000000;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-.flex #menu li a {
-	display: flex;
-}
-.companyLogo {
-    /* width: 10%; */
-    height: 60px;
-    margin-left: 3%;
-    /* border: 1px solid red; */
-    align-items: center;
-} */
 #menu {
 	display: flex;
 	align-items: center;
 	list-style-type: none;
-	
+
 }
+
 #menu li a {
 	color: #4e4b4bfa;
 	text-decoration: none;
@@ -57,51 +19,54 @@ nav li {
 	font-weight: bold;
 	font-size: 1rem;
 	letter-spacing: 0.1em;
-    line-height: 110%;
-    font-style: normal;
+	line-height: 110%;
+	font-style: normal;
 }
+
 ul li {
-    padding: 0 20px
+	padding: 0 20px
 }
 
 .logoImg {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
+
 @media screen and (max-width: 768px) {
-    nav .hamburger {
+	.hamburger {
 		background-color: transparent;
 		border: 0;
 		cursor: pointer;
 		display: flex;
 	}
 
-	nav .hamburger .close {
+	.nav .hamburger .close {
 		display: none;
 	}
 
-	nav .hamburger .show .open {
+	.nav ul.show .open {
 		display: none;
 	}
 
 	nav .hamburger .show .close {
 		display: block;
 	}
-    
+
 	nav .flex {
 		flex-direction: row;
-        width: 90%;
+		width: 90%;
 	}
 
 	nav .img-wrapper {
 		text-align: left;
 	}
 
-	nav ul {
+	.nav ul {
 		display: none;
 	}
-    nav ul.show {
+
+	.nav ul.show {
 		background-color: #fff;
 		display: flex;
 		flex-direction: column;
@@ -111,7 +76,6 @@ ul li {
 		top: 70px;
 		left: 0;
 		width: 100vw;
-		height: calc(100vh - 70px);
 		z-index: 100;
 	}
 
@@ -122,7 +86,8 @@ ul li {
 	nav ul a {
 		color: #fff;
 	}
-    nav .img-wrapper {
+
+	nav .img-wrapper {
 		text-align: left;
 	}
 }

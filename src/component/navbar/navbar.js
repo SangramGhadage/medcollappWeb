@@ -38,20 +38,24 @@ export default function NavBar() {
         //         </div>
         //     </div>
         // </nav>
-        <AppBar style={{backgroundColor: '#ffffff', display: 'flex', height: '85px', justifyContent:'center'}}>
+        <AppBar className= 'nav' style={{ backgroundColor: '#ffffff', display: 'flex', height: '85px', justifyContent: 'center' }}>
             <Stack direction='row' spacing={30}>
-                <div class="img-wrapper" style={{marginLeft: '3%', marginRight: '10%' }}>
+                <div class="img-wrapper" style={{ marginLeft: '3%', marginRight: '10%' }}>
                     <img src={logo} alt="logo" style={{ width: '102px', height: '37px', position: 'absolute', left: '44px', top: '24px' }} />
                 </div>
-            <Stack direction='row'>
-                <ul id="menu" ref={menuRef} style= {{display: 'flex', listStyle: 'none', alignItems: 'center'}}>
-                    <li><a href="#"><img src={HomeIcone} alt="" /></a></li>
-                    <li><a href="#">Company <span><ExpandMoreOutlinedIcon style={{position: 'relative'}}/></span></a></li>
-                    <li><a href="#">Knowledge <span><ExpandMoreOutlinedIcon style={{position: 'relative', }}/></span></a></li>
-                    <li><a href="#">Contact Us <span><ExpandMoreOutlinedIcon style={{position: 'relative',}}/></span></a></li>
-                </ul>
-               
-            </Stack>
+                <button className="hamburger" id="hamburger" ref={hamburgerRef} onClick={handleMenu}>
+                    <MenuIcon className='open' />
+                    <CloseIcon className='close' />
+                </button>
+                <Stack direction='row'>
+                    <ul id="menu" ref={menuRef} style={{ display: 'flex', listStyle: 'none', alignItems: 'center' }}>
+                        <li><a href="#"><img src={HomeIcone} alt="" /></a></li>
+                        <li><a href="#">Company <span><ExpandMoreOutlinedIcon style={{ position: 'relative' }} /></span></a></li>
+                        <li><a href="#">Knowledge <span><ExpandMoreOutlinedIcon style={{ position: 'relative', }} /></span></a></li>
+                        <li><a href="#">Contact Us <span><ExpandMoreOutlinedIcon style={{ position: 'relative', }} /></span></a></li>
+                    </ul>
+
+                </Stack>
             </Stack>
         </AppBar>
     )

@@ -9,10 +9,11 @@
 .container {
     border: 0.5px solid #FFA800;
     width: 288px;
-    height: 87px;
+    height: 82px;
     border-radius: 16px;
     background-color: #fff;
     display: flex;
+    padding: 3%;
 }
 .heading p {
     color: #00C4CC;
@@ -20,10 +21,8 @@
     font-weight: 400;
 }
 .relationship {
-    height: 93%;
+    height: 100%;
     width: 60%;
-    margin-left: 6px;
-    margin-top: 3px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -37,18 +36,17 @@
     width: 30%;
 }
 
-.img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .count {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-align: start;
-    margin-left: 29px;
-    padding-top: 18px;
 }
 
 .count p {
     margin: 0;
+    font-size: 0.973rem;
+    letter-spacing: 0.04em;
+    padding-left: 6%;
 }

@@ -17,20 +17,17 @@ export default function Numbers() {
                     <p>Find awesome hospitals,doctors,Travel <br /> Agencies at one click</p>
                 </div>
                 <Grid container spacing={2} style={{ marginBottom: '2%' }}>
-                    <Grid item xs={12} md={6} style={{ textAlign: 'end', }}>
+                    <Grid item xs={12} md={6}>
                         <Box style={{  width: '20%', paddingLeft: '60%' }}>
                             <div className="container">
-                                <div className="relationship">
-                                    <div className="img">
-                                        <img src={relationship} alt="" />
-                                    </div>
-                                    <div className="">
-                                        <p style={{marginTop: '8px'}}>Companies</p>
-                                    </div>
+                                <div className="relationship" style={{width: '49%'}} >
+                                    
+                                        <img className="img" src={relationship} alt="" />
+                                        <p style={{margin: '0', fontSize: '0.937rem', color: '#000'}}>Companies</p>
                                 </div>
                                 <div className='count'>
                                         <p style={{color: '#00C4CC', fontSize: '1.1rem', fontWeight: '500'}}>2000+</p>
-                                        <p style={{marginTop: '8px'}}>Medical Tourisam Companies</p>
+                                        <p style={{}}>Medical Tourisam Companies</p>
                                 </div>
                             </div>
                         </Box>
@@ -39,16 +36,14 @@ export default function Numbers() {
                     <Box style={{  width: '20%',  }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>
-                                    <div className="img">
-                                        <img src={kidney} alt="" />
-                                    </div>
-                                    <div className="">
-                                        <p style={{marginTop: '8px'}}>Diseases</p>
-                                    </div>
+                                    
+                                        <img className="img" src={kidney} alt="" />
+                                        <p style={{margin: '0', fontSize: '0.937rem', color: '#000'}}>Diseases</p>
+                                    
                                 </div>
                                 <div className='count'>
-                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', fontWeight: '500'}}>2000+</p>
-                                        <p style={{marginTop: '8px'}}>Registred Diseases</p>
+                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', fontWeight: '500', width: '100%', paddingLeft: '11%'}}>2000+</p>
+                                        <p style={{}}>Registred Diseases</p>
                                 </div>
                             </div>
                         </Box>
@@ -59,16 +54,12 @@ export default function Numbers() {
                         <Box style={{  width: '20%', paddingLeft: '60%' }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>
-                                    <div className="img">
-                                        <img src={Doctor} alt="" />
-                                    </div>
-                                    <div className="">
-                                        <p style={{marginTop: '8px'}}>Doctor</p>
-                                    </div>
+                                        <img className="img" src={Doctor} alt="" />
+                                        <p style={{margin: '0', fontSize: '0.937rem', color: '#000'}}>Doctor</p>
                                 </div>
                                 <div className='count'>
-                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', fontWeight: '500'}}>2000+</p>
-                                        <p style={{marginTop: '8px'}}>Doctor Registerd</p>
+                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', width: '100%', paddingLeft: '11%', fontWeight: '500'}}>2000+</p>
+                                        <p style={{}}>Doctor Registerd</p>
                                 </div>
                             </div>
                         </Box>
@@ -77,16 +68,14 @@ export default function Numbers() {
                     <Box style={{  width: '20%',  }}>
                             <div className="container">
                                 <div className="relationship" style={{width: '40%'}}>
-                                    <div className="img">
-                                        <img src={hospital} alt="" />
-                                    </div>
-                                    <div className="">
-                                        <p style={{marginTop: '8px'}}>hospital</p>
-                                    </div>
+                                    
+                                        <img className="img" src={hospital} alt="" />
+                                        <p style={{margin: '0', fontSize: '0.937rem', color: '#000'}}>hospital</p>
+                                    
                                 </div>
                                 <div className='count'>
-                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', fontWeight: '500'}}>2000+</p>
-                                        <p style={{marginTop: '8px'}}>Hospital Enrolled</p>
+                                        <p style={{color: '#00C4CC', fontSize: '1.1rem', width: '100%', paddingLeft: '11%', fontWeight: '500'}}>2000+</p>
+                                        <p style={{}}>Top Hospital Enrolled</p>
                                 </div>
                             </div>
                         </Box>
