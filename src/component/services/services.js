@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button } from '@mui/material';
+import { Grid, Button, Box } from '@mui/material';
 import './service.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -34,9 +34,10 @@ export default function Services() {
                 }
             },
             {
-                breakpoint: 450,
+                breakpoint: 647,
                 settings: {
                     slidesToShow: 1,
+                    dots: false,
                 }
             },
         ]
@@ -53,7 +54,7 @@ export default function Services() {
                     </Grid>
                     <Slider {...settings}>
                         <div>
-                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
+                            <Box sx={{ m: { xs: '0', lg: '20px' } }} style={{ border: '0.5px solid #E3E3E3 ', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
                                 <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -70,10 +71,10 @@ export default function Services() {
                                 <div className='servicebtn'>
                                     <Button>View details</Button>
                                 </div>
-                            </div>
+                            </Box>
                         </div>
                         <div>
-                            <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px',filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
+                            <Box sx={{ m: { xs: '0', lg: '20px' } }} style={{ border: '0.5px solid #E3E3E3 ',borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
                                 <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
@@ -90,15 +91,15 @@ export default function Services() {
                                 <div className='servicebtn'>
                                     <Button>View details</Button>
                                 </div>
-                            </div>
+                            </Box>
                         </div>
                         <div>
-                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px',  filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)'}}>
-                                <div className= 'cardHeading'>
+                            <Box sx={{ m: { xs: '0', lg: '20px' } }} style={{ border: '0.5px solid #E3E3E3 ', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
+                                <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
                                 </div>
-                                <div className= 'cardService'>
+                                <div className='cardService'>
                                     <p>Whats include in it :</p>
                                     <ul>
                                         <li>Lorem ipsum dolor sit amet, cons dfre dd</li>
@@ -108,17 +109,17 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                <Button>View details</Button>
-                                    </div>
-                            </div>
+                                    <Button>View details</Button>
+                                </div>
+                            </Box>
                         </div>
                         <div>
-                        <div style={{ border: '0.5px solid #E3E3E3 ', margin: '20px', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)'}}>
-                                <div className= 'cardHeading'>
+                            <Box sx={{ m: { xs: '0', lg: '20px' } }} style={{ border: '0.5px solid #E3E3E3 ', borderRadius: '20px', filter: 'blur(0.3px)', boxShadow: '-1px 3px 5px 0px rgba(166, 166, 166, 0.25)' }}>
+                                <div className='cardHeading'>
                                     <img src={serviceImage} alt="" />
                                     <p>Personel care provider</p>
                                 </div>
-                                <div className= 'cardService'>
+                                <div className='cardService'>
                                     <p>Whats include in it :</p>
                                     <ul>
                                         <li>Lorem ipsum dolor sit amet, cons dfre dd</li>
@@ -128,9 +129,9 @@ export default function Services() {
                                 </div>
                                 <hr />
                                 <div className='servicebtn'>
-                                <Button>View details</Button>
-                                    </div>
-                            </div>
+                                    <Button>View details</Button>
+                                </div>
+                            </Box>
                         </div>
                         <div>
                             <h3>3</h3>

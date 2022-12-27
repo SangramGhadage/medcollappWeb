@@ -84,6 +84,7 @@ footer li a {
 
 	footer ul.flex {
 		flex-direction: row;
+		justify-content: center;
 	}
 
 	footer .flex div {

@@ -7,22 +7,27 @@
     left: -71px;
     top: -13px;
 }
+
 .slick-prev:before,
 .slick-next:before {
-  color: #137FFF !important;
-  font-size: 32px !important;
+    color: #137FFF !important;
+    font-size: 32px !important;
 }
+
 .slick-dots {
     bottom: 0 !important;
-   
+
 }
+
 .slick-dots li.slick-active button:before {
     color: #FFD075 !important;
 }
+
 .slick-slider {
     left: -16px;
     width: 102%;
 }
+
 .cardHeading {
     width: 100%;
     padding: 10px 0;
@@ -35,6 +40,7 @@
     display: flex;
     align-items: center;
 }
+
 .cardHeading img {
     width: 32px;
     height: 32px;
@@ -43,19 +49,23 @@
     padding: 11px;
     margin: 0 23px;
 }
+
 .cardHeading p {
     font-size: 1rem;
     font-weight: 600;
 }
+
 .cardService {
     padding: 0px 17px;
 }
+
 .cardService p {
     font-size: 1rem;
     font-weight: 600;
     font-family: poppins;
     color: #000000;
 }
+
 .cardService ul li {
     font-size: 0.7rem;
     font-weight: 300;
@@ -64,13 +74,23 @@
     letter-spacing: 0;
     text-transform: uppercase;
 }
+
 .servicebtn {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .servicebtn Button {
     color: #137FFF !important;
     background-color: rgba(48, 79, 254, 0.08) !important;
     border-radius: 22px;
     box-shadow: none !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
 }

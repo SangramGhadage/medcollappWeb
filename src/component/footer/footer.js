@@ -22,22 +22,22 @@ export default function Footer() {
                                 Molestias delectus sunt atque <br /> perferendis, repellat voluptates, <br />voluptatibus non eum aspernatur inventore <br /> quo nam necessitatibus nobis iure.
                             </p>
                             <ul className="flex">
-                                <li >
+                                <li style= {{margin: '0', padding: 0}}>
                                     <a href="#">
                                         <FacebookIcon />
                                     </a>
                                 </li>
-                                <li>
+                                <li style= {{margin: '0', padding: 0}}>
                                     <a href="#">
                                         <TwitterIcon />
                                     </a>
                                 </li>
-                                <li>
+                                <li style= {{margin: '0', padding: 0}}>
                                     <a href="#">
                                         <LinkedInIcon />
                                     </a>
                                 </li>
-                                <li>
+                                <li style= {{margin: '0', padding: 0}}>
                                     <a href="#">
                                         <InstagramIcon />
                                     </a>

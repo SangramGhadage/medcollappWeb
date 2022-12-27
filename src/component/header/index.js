@@ -1,4 +1,4 @@
-import { Grid, TextField, Button } from '@mui/material';
+import { Grid, TextField, Button, Box } from '@mui/material';
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import './header.css'
@@ -22,14 +22,14 @@ export default function Header() {
                     <Grid item xs={12} justifyContent='center' style={{ width: '100%', marginBottom: '7%' }}>
                         <Grid container className='headerform' style={{ width: '93%', marginLeft: '3%', borderRadius: '40px', backgroundColor: 'rgb(250 252 255 / 38%)', fontWeight: '500' }}>
 
-                            <Grid item xs={7.5}>
+                            <Grid item xs={12} lg={7.5}>
                                 <Grid container>
                                     <Grid item xs={12}>
                                         <h2 className='formHeading'>Start your search here...</h2>
                                     </Grid>
-                                    <Grid item xs={6}>
+                                    <Grid item xs={12} lg={6}>
                                         <p className='formPara'>Search for disease,Treatment,Illness.*</p>
-                                        <div style={{ position: 'relative', left: '36px', top: '-25px' }}>
+                                        <Box sx={{textAlign: {xs: 'center'}}} style={{ position: 'relative',  top: '-25px' }}>
                                             <TextField className={classes.textField} placeholder='search Disease/Treatment/Illness' id="outlined-basic" variant="outlined" size="small"
                                                 sx={{ height: 48 }} inputProps={{ sx: { height: 32 } }}
                                                 InputProps={{
@@ -40,11 +40,11 @@ export default function Header() {
                                                         </InputAdornment>
                                                     )
                                                 }} />
-                                        </div>
+                                        </Box>
                                     </Grid>
-                                    <Grid item xs={6} textAlign='start'>
+                                    <Grid item xs={12} lg={6} textAlign='start'>
                                         <p className='formPara' style={{ left: '0' }}>What will be required location ?</p>
-                                        <div style={{ position: 'relative', top: '-25px' }}>
+                                        <Box sx={{textAlign: {xs: 'center'}}} style={{ position: 'relative', top: '-25px' }}>
                                             <TextField sx={{ height: 48 }} placeholder='search Disease/Treatment/Illness' inputProps={{ sx: { height: 32 } }} className={classes.textField} id="outlined-basic" variant="outlined" size="small" InputProps={{
                                                 endAdornment: (
                                                     <InputAdornment>
@@ -61,7 +61,7 @@ export default function Header() {
                                             }} />
 
                                             <img className='searchIcon' style={{ backgroundColor: '#0880e9', borderRadius: '10px', padding: '14px', marginLeft: '7%' }} class src={searchIcon} alt="" />
-                                        </div>
+                                        </Box>
                                     </Grid>
                                 </Grid>
                                 <hr style={{ borderTop: '0.5px solid #ffffff14', marginLeft: '1%' }} />
@@ -72,7 +72,7 @@ export default function Header() {
                                     </div>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={4.5} className='join' style={{ backgroundColor: '#ffffff', height: '250px' }}>
+                            <Grid item xs={12} lg={4.5} className='join' style={{ backgroundColor: '#ffffff', height: '250px' }}>
                                 <Grid container style={{ height: '100%', textAlign: 'center' }}>
                                     <Grid item xs={4}>
                                         <img src={vector} alt="" style={{ width: '100%', height: '118%', objectFit: 'cover', position: 'relative', top: '-55px', right: '-19px' }} />
