@@ -17,7 +17,7 @@ export default function Listing() {
                 </div>
                 {/* <div className="cards"> */}
                 
-                <Stack direction='row' justifyContent='space-around' style={{margin: '3% 0'}}>
+                <Stack direction={{ xs: 'column', lg: 'row' }} spacing={2} alignItems='center' justifyContent='space-around' style={{margin: '3% 0'}}>
                     <Box className='listing'>
                         <img src={Rectangle1} style={{ width: '100%', height: '60%', objectFit: 'cover', borderRadius: '22px' }} alt="" />
                         <hr style={{ width: '100%', border: '1px solid #E6E6E6' }} />
@@ -42,7 +42,7 @@ export default function Listing() {
                         <a href="">Know More</a>
                     </Box>
                 </Stack>
-                <Stack direction='row' justifyContent='space-around' style={{marginBottom: '3%'}}>
+                <Stack direction={{ xs: 'column', lg: 'row' }} spacing={2} alignItems='center' justifyContent='space-around' style={{marginBottom: '3%'}}>
                     <Box className='listing'>
                         <img src={Rectangle1} style={{ width: '100%', height: '60%', objectFit: 'cover', borderRadius: '22px' }} alt="" />
                         <hr style={{ width: '100%', border: '1px solid #E6E6E6' }} />

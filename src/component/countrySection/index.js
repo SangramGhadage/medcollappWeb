@@ -15,7 +15,7 @@ export default function Country() {
                     <h1>Featured Countries</h1>
                     <h4>Top most health facilated Countries</h4>
                 </div>
-                <Stack direction='row' justifyContent='space-around' style={{ marginTop: '6%', marginRight: '6%' }}>
+                <Stack direction={{ xs: 'column', lg: 'row' }} justifyContent='space-around' alignItems= 'center' style={{ marginTop: '93px', marginRight: '6%' }}>
                     <Box className='countryBox' style={{}}>
                         <img src={Delhi} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
                         <p className='countryName'>New Delhi</p>
@@ -38,7 +38,7 @@ export default function Country() {
                     </Box>
                 </Stack>
 
-                <Stack direction='row' justifyContent='space-around' style={{ marginTop: '6%', marginLeft: '6%' }}>
+                <Stack direction={{ xs: 'column', lg: 'row' }} alignItems='center' justifyContent='space-around' style={{ marginTop: '6%', marginLeft: '6%' }}>
                     <Box className='countryBox' style={{}}>
                         <img src={Delhi} style={{ width: '95%', height: '95%', objectFit: 'cover', borderRadius: '32px', outline: '10px solid #ffffff' }} alt="" />
                         <p className='countryName'>New Delhi</p>
