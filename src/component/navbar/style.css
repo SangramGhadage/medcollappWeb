@@ -4,14 +4,14 @@
 	display: none;
 }
 
-#menu {
+.nav ul {
 	display: flex;
 	align-items: center;
 	list-style-type: none;
 
 }
 
-#menu li a {
+.nav ul li a {
 	color: #4e4b4bfa;
 	text-decoration: none;
 	align-items: center;
@@ -49,17 +49,8 @@ ul li {
 		display: none;
 	}
 
-	nav .hamburger .show .close {
+	.nav .hamburger .show .close {
 		display: block;
-	}
-
-	nav .flex {
-		flex-direction: row;
-		width: 90%;
-	}
-
-	nav .img-wrapper {
-		text-align: left;
 	}
 
 	.nav ul {

@@ -48,7 +48,7 @@ export default function NavBar() {
                     <CloseIcon className='close' />
                 </button>
                 <Stack direction='row'>
-                    <ul id="menu" ref={menuRef} style={{ display: 'flex', listStyle: 'none', alignItems: 'center' }}>
+                    <ul id="menu" ref={menuRef} >
                         <li><a href="#"><img src={HomeIcone} alt="" /></a></li>
                         <li><a href="#">Company <span><ExpandMoreOutlinedIcon style={{ position: 'relative' }} /></span></a></li>
                         <li><a href="#">Knowledge <span><ExpandMoreOutlinedIcon style={{ position: 'relative', }} /></span></a></li>
