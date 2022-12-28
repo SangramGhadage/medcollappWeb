@@ -11,7 +11,7 @@
 }
 
 .listing {
-    width: 382px;
+    /* width: 382px; */
     /* border: 0.5px solid red; */
     height: 438px;
     display: flex;

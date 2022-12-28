@@ -81,4 +81,8 @@ ul li {
 	nav .img-wrapper {
 		text-align: left;
 	}
+	.headerh1 {
+		width: 100%;
+		left: 0;
+	}
 }
