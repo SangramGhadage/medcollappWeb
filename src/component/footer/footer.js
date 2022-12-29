@@ -8,6 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <footer>
@@ -83,7 +84,7 @@ export default function Footer() {
             </footer>
                 <Grid container style={{backgroundColor: '#333', color: '#ffffff', marginBottom: 0, paddingBottom: 0, textAlign: 'center'}}>
                     <Grid item xs = {6}>
-                        <p>&copy; 2022 medcollapp. All rights reserved</p>
+                        <p>&copy; {currentYear} medcollapp. All rights reserved</p>
                     </Grid>
                     <Grid item xs = {6}>
                         {/* <p>2022 medcollapp. </p> */}
